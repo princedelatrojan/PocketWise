@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">pocketwise</string>
+    <string name="title_activity_main">pocketwise</string>
+    <string name="package_name">com.paul.pocketwise</string>
+    <string name="custom_url_scheme">com.paul.pocketwise</string>
+</resources>

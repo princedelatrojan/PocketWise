@@ -1,0 +1,34 @@
+{
+  "budgets": [
+    {
+      "amount": 80000,
+      "category": "Salary",
+      "createdAt": "2025-07-05T07:21:35Z",
+      "date": "2025-07-05",
+      "id": "2HwAhQMIf7Zxl2Rj8vK",
+      "title": "Salary",
+      "type": "Income",
+      "uid": "hVeumwqupyLdrW0WBpPLKBQtHqi2"
+    },
+    {
+      "amount": 30000,
+      "category": "Fee",
+      "createdAt": "2025-07-05T07:22:33Z",
+      "date": "2025-07-05",
+      "id": "6E7cVDXXKDWOYUxnjIP",
+      "title": "Rent",
+      "type": "Expense",
+      "uid": "hVeumwqupyLdrW0WBpPLKBQtHqi2"
+    },
+    {
+      "amount": 100000,
+      "category": "Salary",
+      "createdAt": "2025-07-03T09:00:00Z",
+      "date": "2025-07-03",
+      "id": "C7E23wt2nYu209mlHfy",
+      "title": "Employment Salary",
+      "type": "Income",
+      "uid": "4XHw6n3uVUR6mdaY5UK3dyyl1HT2"
+    }
+  ]
+}
