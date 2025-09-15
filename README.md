@@ -1,174 +1,193 @@
-
 ---
 
-````markdown
 # PocketWise
 
-**Smarter Budgeting. AI-Powered Clarity. Financial Peace.**
+*Smarter Budgeting. AI-Powered Clarity. Financial Peace.*
 
-PocketWise is a next-gen personal finance management app designed to simplify the way individuals track, analyze, and optimize their financial habits. Whether you're saving for a goal, managing expenses, or seeking AI-powered financial insights — PocketWise makes it effortless and intuitive.
+PocketWise is a next-generation personal finance management application designed to simplify the way individuals track, analyze, and optimize their financial habits. Whether you are saving for a goal, managing expenses, or seeking AI-powered financial insights — PocketWise makes the process effortless and intuitive.
 
-Developed using modern web technologies and deployed across both web and Android platforms via Capacitor, PocketWise merges the convenience of mobile with the power of smart data-driven decisions.
+Developed with modern web technologies and deployed across both web and Android platforms via Capacitor, PocketWise combines the convenience of mobile with the power of intelligent, data-driven decision-making.
 
 ---
 
-##  Core Features
+## Core Features
 
-- ** Transaction Logging**  
+- *Transaction Logging*  
   Add, edit, and categorize income and expenses with ease.
 
-- ** Interactive Financial Visualization**  
-  Dynamic charts and graphs (Pie, Bar, Monthly Summary) give users instant clarity.
+- *Interactive Financial Visualization*  
+  Dynamic charts and graphs (Pie, Bar, Monthly Summary) provide instant clarity.
 
-- ** AI Assistant**  
-  Ask natural-language financial questions. Get smart, contextual responses using OpenRouter’s LLMs.
+- *AI Assistant*  
+  Ask financial questions in natural language and receive contextual, AI-powered insights.
 
-- ** Secure Firebase Authentication**  
-  Sign up/sign in via Email/Password or Google — securely backed by Firebase.
+- *Secure Firebase Authentication*  
+  Email/Password and Google login options, securely backed by Firebase.
 
-- ** Native Android App with Capacitor**  
-  Your budgeting, on the go — no extra codebase.
+- *Cross-Platform with Capacitor*  
+  Seamless deployment to web and Android with a single codebase.
 
-- **📝Budget CRUD System**  
+- *Budget CRUD System*  
   Full control to Create, Read, Update, and Delete financial entries.
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
-| Layer        | Tech Used                                     |
-|--------------|-----------------------------------------------|
-| Frontend     | React.js + Tailwind CSS                       |
-| Backend      | Firebase (Firestore DB + Auth)                |
-| AI Layer     | OpenRouter (Mistral-7B model integration)     |
-| Data Viz     | Recharts                                      |
-| Mobile Build | Capacitor.js (for native Android deployment)  |
-| Animations   | Framer Motion                                 |
+| Layer        | Technology Used                              |
+|--------------|----------------------------------------------|
+| Frontend     | React.js, Tailwind CSS                       |
+| Backend      | Firebase (Firestore Database + Authentication) |
+| AI Layer     | OpenRouter (Mistral-7B model integration)    |
+| Data Viz     | Recharts                                     |
+| Mobile Build | Capacitor.js (Android deployment)            |
+| Animations   | Framer Motion                                |
 
 ---
 
-##  How to Get Started
+## Application Screenshots
+
+| Login | Dashboard | AI Assistant |
+|-------|-----------|--------------|
+| ![Login](./App%20Sample%20Shots/login.jpeg) | ![Dashboard](./App%20Sample%20Shots/dashboard.jpeg) | ![AI Assistant](./App%20Sample%20Shots/pocketwiseAI.jpeg) |
+
+| Budget Page | Mobile Dashboard | Mobile AI |
+|-------------|------------------|-----------|
+| ![Budget Page](./App%20Sample%20Shots/budgetpage.jpeg) | ![Mobile Dashboard](./App%20Sample%20Shots/mobiledashboard.jpeg) | ![Mobile AI](./App%20Sample%20Shots/Mobileai.jpeg) |
+
+---
+
+## Getting Started
 
 ### 1. Clone the Project
-
 ```bash
-git clone https://github.com/your-username/pocketwise.git
+git clone https://github.com/princedelatrojan/PocketWise.git
 cd pocketwise
-````
 
-### 2. Install Dependencies
+2. Install Dependencies
 
-```bash
 npm install
-```
 
-### 3. Firebase Setup
+3. Firebase Setup
 
-1. Create a Firebase project on [console.firebase.google.com](https://console.firebase.google.com)
+1. Create a Firebase project at console.firebase.google.com
+
+
 2. Enable:
 
-    * Firestore Database
-    * Authentication (Email/Password & Google)
-3. Copy your Firebase config into `/src/firebase/firebaseConfig.js`
+Firestore Database
 
-### 4. Run Locally
+Authentication (Email/Password and Google)
 
-```bash
+
+
+3. Copy your Firebase configuration into:
+
+/src/firebase/firebaseConfig.js
+
+
+
+4. Run Locally
+
 npm run dev
-```
+
 
 ---
 
-## 📱 Running as Android App
+Running as an Android App
 
-### 1. Install Capacitor
+1. Install Capacitor
 
-```bash
 npm install @capacitor/core @capacitor/cli
 npx cap init
-```
 
-### 2. Add Android Platform
 
-```bash
+2. Add Android Platform
+
 npx cap add android
-```
 
-### 3. Build & Sync
 
-```bash
+3. Build & Sync
+
 npm run build
 npx cap copy android
-```
 
-### 4. Open in Android Studio
 
-```bash
+4. Open in Android Studio
+
 npx cap open android
-```
 
 Run the app via a connected device or emulator.
 
+
+
+
 ---
 
-## 🧭 Project Structure
+Project Structure
 
-```bash
 ├── src/
 │   ├── components/     # Reusable UI widgets
 │   ├── pages/          # Main screens (Home, Login, Register, Dashboard, AI, BudgetPage)
 │   ├── utils/          # Firebase methods and AI functions
 │   ├── firebase/       # Firebase config
-│   ├── App.jsx         # Routing and auth guards
+│   ├── App.jsx         # Routing and authentication guards
 │   └── main.jsx        # React entry point
-```
+
 
 ---
 
-##  Roadmap (Upcoming Features)
+Roadmap (Planned Features)
 
-* ** M-PESA Integration (Android)**
-  Auto-read and parse SMS messages for transaction automation.
+M-PESA Integration (Android)
+Automatic SMS parsing for transactions.
 
-* ** Advanced AI Financial Coaching**
-  Personalized money-saving advice, bad habit detection, and predictive budgeting.
+Advanced AI Financial Coaching
+Personalized saving advice, spending habit detection, and predictive budgeting.
 
-* ** UI/UX Redesign**
-  Better accessibility, animations, and refined responsiveness for tablets and large screens.
+UI/UX Enhancements
+Improved accessibility, animations, and tablet support.
 
-* ** Data Exporting**
-  Export financial summaries as PDF or CSV.
+Data Export
+Export financial summaries as PDF or CSV.
 
-* ** Theming & Personalization**
-  Users will be able to customize their layout, colors, and fonts.
+Theming & Personalization
+Layout, color, and font customization.
+
+
 
 ---
 
-## 👤 Author & Contact
+Author & Contact
 
-**Paul Karanja**
+Paul Karanja
 Department of Computer & Information Science
 Catholic University of Eastern Africa
-📧 [princetrojan@proton.me](mailto:princetrojan@proton.me)
+📧 princetrojan@proton.me
+
 
 ---
 
-## 🏷️ Keywords
+Keywords
 
-`React`, `Firebase`, `Finance Tracker`, `AI Budget Assistant`, `Personal Finance`,
-`Mistral`, `Capacitor`, `Tailwind CSS`, `Firestore`, `Cross-platform`,
-`Expense Tracker`, `AI + Budgeting`, `Android`, `Web App`, `Financial Planning`
+React, Firebase, Finance Tracker, AI Budget Assistant, Personal Finance,
+Mistral, Capacitor, Tailwind CSS, Firestore, Cross-platform,
+Expense Tracker, AI + Budgeting, Android, Web App, Financial Planning
+
 
 ---
 
-## 📄 License
+License
 
 This project is licensed under the MIT License.
-Free to use, modify, and improve — attribution is welcome.
+You are free to use, modify, and distribute — attribution is appreciated.
+
 
 ---
 
-## 🤝 Contributions
+Contributions
 
-Want to improve PocketWise? Fix bugs? Add a feature?
-PRs are welcome! Let’s build the smartest budgeting assistant together.
+Contributions are welcome!
+If you would like to fix bugs or add new features, please open a Pull Request.
+
+---
